@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <title>The Cupcake Factory</title>
+  </head>
+
+  <body>
+    <header>
+      <h1 id="home">The Cupcake Factory</h1>
+      <nav>
+        <ul>
+          <a href="#home"><li>Home</li></a>
+          <a href="#menu"><li>Menu</li></a>
+          <a href="#location"><li>Location</li></a>
+          <a href="#contact"><li>Contact</li></a>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <h2>History</h2>
+      <figure>
+        <img src="resources/factory.jfif" alt="Photo of the factory" id="factory_photo">
+        <figcaption>Photo of the Cupcake Factory</figcaption>
+    </figure>
+      <p>
+        The Cupcake Factory was established in 1919 by Robert G Cameron and his
+        wife Mary O Cameron. Once Robert passed away in 2010, his daughter Elizabeth took over the business and is running it today with her niece Andrea.
+      </p>
+
+      <section>
+        <h2 id="menu">Menu</h2>
+        <ul>
+            <li>Vanilla Cupcake (chocolate or vanilla frosting)</li>
+            <img src="resources/Vanilla.jpg" alt="Vanilla cupcake photo" class="cupcake_photo">
+            <li>Chocolate Cupcake (chocolate or vanilla frosting)</li>
+            <img src="resources/Chocolate.jpg" alt="Chocolate cupcake photo" class="cupcake_photo">
+            <li>Red Velvet Cupcake with cream cheese icing</li>
+            <img src="resources/red-velvet.jpg" alt="Red velvet cupcake photo" class="cupcake_photo">
+            <li>Devil's Food Cake Cupcake with chocolate icing</li>
+            <img src="resources/devils-food.jpg" alt="Devils Food cupcake photo" class="cupcake_photo">
+            <li>Funfetti Cupcake with Funfetti icing</li>
+            <img src="resources/funfetti.jpg" alt="funfetti cupcake photo" class="cupcake_photo">
+        </ul>
+      </section>  
+    </main>
+
+  <section>
+    <h2 id="location">Location</h2>
+    <h4>18 N Main Street, Chalfont PA 18914</h4>
+  </section>
+  
+  <section>
+    <h2 id="contact">Contact Us</h2>
+    <form>
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder=" Your first name...">
+
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name...">
+
+        <label for="country">Country</label>
+        <select id="country" name="country">
+            <option value="Europe">Europe</option>
+            <option value="North America">North America</option>
+            <option value="Asia">Asia</option>
+        </select>
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something..."></textarea>
+
+        <input type="submit" value="Submit">
+    </form>
+  </section>
+
+    <footer>
+        <p>By Molly Singmaster</p>
+    </footer>
+  </body>
+</html>
