@@ -2,6 +2,10 @@
     font-family: 'Times New Roman', Times, serif;
 }
 
+h1 {
+    color:rgba(71, 131, 133, 0.808);
+}
+
 header ul {
     list-style-type: none;
 }
