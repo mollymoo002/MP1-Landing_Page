@@ -2,13 +2,20 @@
     font-family: 'Times New Roman', Times, serif;
 }
 
-header nav ul {
+header ul {
     list-style-type: none;
+}
+
+header li {
+    display: inline;
+    float: left;
 }
 
 header nav ul a {
     text-decoration: none;
     color: white;
+    display: block;
+    padding: 20px;
 }
 
 body {
@@ -46,4 +53,14 @@ section li {
     list-style-type: none;
     text-align: center;
     margin: 20px;
+}
+
+form {
+    display: block;
+    margin-top: 0em;
+}
+
+footer {
+    text-align: center;
+    margin-top: 60px;
 }
